@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid'
 import './App.css'
 import Hello from './components/hello/Hello'
 import PersonList from './components/person-list/PersonList'
+import EventComponent from './components/event-component/EventComponent'
 
 function App() {
 
@@ -31,8 +32,9 @@ function App() {
   return (
     <>
       <h1 className='title'>Titre de mon app</h1>
-      <Hello personne={william} />
-      <PersonList personnes={personnes}/>
+      {/* <Hello personne={william} />
+      <PersonList personnes={personnes}/> */}
+      <EventComponent/>
     </>
   )
 }
