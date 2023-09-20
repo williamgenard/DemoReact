@@ -4,6 +4,7 @@ import Hello from './components/hello/Hello'
 import PersonList from './components/person-list/PersonList'
 import EventComponent from './components/event-component/EventComponent'
 import InputComponent from './components/event-component/InputComponent'
+import DemoForm from './components/demo-form/DemoForm'
 
 function App() {
 
@@ -35,8 +36,9 @@ function App() {
       <h1 className='title'>Titre de mon app</h1>
       {/* <Hello personne={william} />
       <PersonList personnes={personnes}/> */}
-      <EventComponent/>
-      <InputComponent/>
+      {/* <EventComponent/>
+      <InputComponent/> */}
+      <DemoForm/>
     </>
   )
 }
