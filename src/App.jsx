@@ -3,6 +3,7 @@ import './App.css'
 import Hello from './components/hello/Hello'
 import PersonList from './components/person-list/PersonList'
 import EventComponent from './components/event-component/EventComponent'
+import InputComponent from './components/event-component/InputComponent'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       {/* <Hello personne={william} />
       <PersonList personnes={personnes}/> */}
       <EventComponent/>
+      <InputComponent/>
     </>
   )
 }

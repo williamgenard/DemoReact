@@ -11,12 +11,14 @@ function EventComponent() {
 
     const handleClick = () => {
         if (texte === "Bonjour") {
+            // Si on veut changer la valeur d'un state, on doit utiliser la fonction associée
             setTexte("Au revoir")
         }
         else {
             setTexte("Bonjour")
         }
 
+        // Si la nouvelle valeur dépend de l'ancienne, on utilise le setState avec une lambda
         setBarre((currentValue) => currentValue + "|")
     }
 
